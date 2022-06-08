@@ -1,0 +1,7 @@
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepDefaultAttrVals: false
+      keepQuotes: true
+      keepWhitespace: true

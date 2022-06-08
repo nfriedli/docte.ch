@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{site.Language}}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ site.Title }}</title>
+    {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ template "_internal/opengraph.html" . }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ hugo.Generator }}
+    <style>
+        html {
+            background: #FFF;
+            color: #233;
+            font-size: 106.25%;
+            line-height: 1.4;
+            font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+        body {
+            padding: 1rem;
+            margin: auto;
+            max-width: 40em;
+        }
+        body > * + * {
+            margin-top: 4rem;
+        }
+        code, pre {
+            font-family: Roboto Mono,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+            font-size: .9375rem;
+        }
+        li + li {
+            margin-top: .5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        {{ if .IsHome }}
+        {{site.Title}}
+        {{ else }}
+        <a href="{{site.BaseURL}}">{{site.Title}}</a>
+        {{ end }}
+    </header>
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+        sources sur <a href="https://github.com/nfriedli/docte.ch">GitHub</a> /
+        construit avec <a href="https://gohugo.io/">Hugo</a> /
+        licence CC by-sa
+    </footer>
+</body>
+
+</html>
