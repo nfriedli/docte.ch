@@ -1,0 +1,34 @@
+baseURL = "https://docte.ch/"
+title = "docte.ch"
+
+languageCode = "fr-ch"
+defaultContentLanguage = "fr"
+
+cleandestinationdir = true
+copyright = "CC by-sa"
+disableFastRender = true
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = false
+removePathAccents = true
+disableKinds = [ "taxonomy", "term", "RSS", "robotsTXT", "404" ]
+
+[author]
+name = "Nicolas Friedli"
+email = "nicolas.friedli+doctech@gmail.com"
+
+[build]
+writeStats = true
+
+[markup.goldmark.extensions]
+typographer = true
+
+[markup.goldmark.parser]
+autoHeadingIDType = "github-ascii"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+pygmentsCodefences = true
+style = "dracula"

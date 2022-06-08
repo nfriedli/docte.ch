@@ -1,0 +1,7 @@
+[minify]
+minifyOutput = true
+
+[minify.tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = false
+keepWhitespace = false
