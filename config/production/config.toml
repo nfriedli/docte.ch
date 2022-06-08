@@ -3,5 +3,5 @@ minifyOutput = true
 
 [minify.tdewolff.html]
 keepDefaultAttrVals = false
-keepQuotes = false
-keepWhitespace = false
+keepQuotes = true
+keepWhitespace = true
