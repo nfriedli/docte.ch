@@ -28,7 +28,3 @@ autoHeadingIDType = "github-ascii"
 
 [markup.goldmark.renderer]
 unsafe = true
-
-[markup.highlight]
-pygmentsCodefences = true
-style = "dracula"

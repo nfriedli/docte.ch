@@ -38,10 +38,8 @@ Suisse
 
 Il fallait trouver une nom de domaine, que je souhaitais court:
 
-```toml
-documentation technique  # sujet
-=> doc tech              # titre abrégé
-=> DocTech               # en un mot
-=> docte.ch              # nom de domaine
-=> docte                 # érudit, savant ;)
-```
+    documentation technique  # sujet
+    => doc tech              # titre abrégé
+    => DocTech               # en un mot
+    => docte.ch              # nom de domaine
+    => docte                 # érudit, savant ;)
