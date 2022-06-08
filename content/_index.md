@@ -5,14 +5,14 @@ images:
 - https://cdn.pixabay.com/photo/2016/01/19/01/42/library-1147815_960_720.jpg
 ---
 
-Le site `DocTe.ch` développe une offre de services dans le domaine de la documentation technique.
+Le site docte.ch développe une offre de services dans le domaine de la documentation technique.
 Il s’adresse aux entreprises et organisations qui cherchent à améliorer leur documentation en ligne.
 
 **Le lancement du service est prévu pour la rentrée 2022.**
 
 ## Offres
 
-[Nicolas Friedli](https://nicolasfriedli.ch), consultant web indépedant à Neuchâtel (Suisse), propose les services suivants:
+[Nicolas Friedli](https://nicolasfriedli.ch), consultant web indépendant à Neuchâtel (Suisse), propose les services suivants:
 
 - introduction aux **enjeux de la documentation** pour les clients finaux et à usage interne
 - élaboration de **cahier des charges** et aide au **choix d’outils spécifiques** (Sphinx, mkDocs, Hugo ou votre propre CMS)
